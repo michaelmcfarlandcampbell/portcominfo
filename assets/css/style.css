@@ -1,3 +1,5 @@
+/*-----------------------Typefaces-----*/
+
 body {
     font-family: le-monde-livre-classic-byol, serif;
     font-weight: 300;
@@ -5,6 +7,16 @@ body {
 	font-variant-numeric: oldstyle-nums;
 	font-feature-settings: "onum";
 }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: fieldwork, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+	font-variant-numeric: oldstyle-nums;
+    font-feature-settings: "onum";
+    color: #872657;
+}
+/*-----------------------NavBar-----*/
 
 .navbar {
         font-family: le-monde-livre-classic-byol, serif;
@@ -19,27 +31,29 @@ body {
     font-weight: 300;
     font-style: normal;
 	font-variant-numeric: oldstyle-nums;
-	font-feature-settings: "onum";
+    font-feature-settings: "onum";
+    color: #872657;
 }
 
 .nav-link {
     color: #872657; 
     text-transform: uppercase;
+    
 }
 
-h1,h2,h3,h4,h5,h6 {
-    font-family: fieldwork, sans-serif;
-    font-weight: 300;
-    font-style: normal;
-	font-variant-numeric: oldstyle-nums;
-	font-feature-settings: "onum";
+.nav-item {
+    padding-left: 10px;
 }
 
-h1  {
-    background-color: #872657;
-    color: #ffffff;
-}
 
+
+/*------------Colours---------*/
+
+
+
+
+
+/*-----------Sections---------*/
 .about {
     background-color: whitesmoke;
     height: 100vh;
@@ -51,8 +65,8 @@ h1  {
 }
 
 .information {
-    background-color: #872657;
-    color: #ffffff;
+    background-color: #whitesmoke;
+    height: 100vh;
 }
 
 .breadcrumb {
