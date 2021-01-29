@@ -1,0 +1,64 @@
+body {
+    font-family: le-monde-livre-classic-byol, serif;
+    font-weight: 300;
+    font-style: normal;
+	font-variant-numeric: oldstyle-nums;
+	font-feature-settings: "onum";
+}
+
+.navbar {
+        font-family: le-monde-livre-classic-byol, serif;
+    font-weight: 300;
+    font-style: normal;
+	font-variant-numeric: oldstyle-nums;
+	font-feature-settings: "onum";
+}
+
+.navbar-brand {
+        font-family: le-monde-livre-classic-byol, serif;
+    font-weight: 300;
+    font-style: normal;
+	font-variant-numeric: oldstyle-nums;
+	font-feature-settings: "onum";
+}
+
+.nav-link {
+    color: #872657; 
+    text-transform: uppercase;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: fieldwork, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+	font-variant-numeric: oldstyle-nums;
+	font-feature-settings: "onum";
+}
+
+h1  {
+    background-color: #872657;
+    color: #ffffff;
+}
+
+.about {
+    background-color: whitesmoke;
+    height: 100vh;
+}
+
+.history {
+    background-color: silver;
+    height: 100vh;
+}
+
+.information {
+    background-color: #872657;
+    color: #ffffff;
+}
+
+.breadcrumb {
+    height: 10vh;
+}
+.breadcrumb-info {
+    background-color: #ffffff;
+    color: #872657;
+}
