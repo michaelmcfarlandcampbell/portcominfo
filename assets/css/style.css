@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-brand {
-        font-family: le-monde-livre-classic-byol, serif;
+    font-family: le-monde-livre-classic-byol, serif;
     font-weight: 300;
     font-style: normal;
 	font-variant-numeric: oldstyle-nums;
@@ -58,12 +58,19 @@ h1, h2, h3, h4, h5, h6 {
     font-family: fieldwork, sans-serif;
     font-weight: 600;
     font-style: bold;
+    text-align: center;
+    padding: 5px 10px 5px 10px;
 }
 
+.bg-warning a {
+    background-color: black;
+    color: #ffc107;
+    padding: 0px 5px 0px 5px;
+}
 
 .about {
     background-color: whitesmoke;
-    height: 100vh;
+    height: 75vh;
 }
 
 .history {
