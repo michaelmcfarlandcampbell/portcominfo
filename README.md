@@ -14,14 +14,17 @@ The site owner wants to help the local community by highlighting events that are
 * Shop to purchase merchandise 
 
 ## Pages
-### Home
+### About us
 Information about the page and the Portarlington Community Information Project.
 
-### History 
-A brief history of the town 
+### Local information
+This page will have a list of local shops to get
+* Fuel
+* Food
+* Pharmacy
+* Church
+* Banking
 
-### What's On?
-This page will have a listing of local events both regular and occasional.
 
 ### Support us
 This page will have opportunities to support the local community organisation by highlighting merchandise available from local shops or online.

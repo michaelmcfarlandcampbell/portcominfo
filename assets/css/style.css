@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 300;
     font-style: normal;
 	font-variant-numeric: oldstyle-nums;
-	font-feature-settings: "onum";
+    font-feature-settings: "onum";
 }
 
 .navbar-brand {
@@ -54,6 +54,13 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /*-----------Sections---------*/
+.bg-warning {
+    font-family: fieldwork, sans-serif;
+    font-weight: 600;
+    font-style: bold;
+}
+
+
 .about {
     background-color: whitesmoke;
     height: 100vh;
@@ -65,8 +72,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .information {
-    background-color: #whitesmoke;
-    height: 100vh;
+    background-color: whitesmoke;
+    height: 200vh;
 }
 
 .breadcrumb {
@@ -75,4 +82,21 @@ h1, h2, h3, h4, h5, h6 {
 .breadcrumb-info {
     background-color: #ffffff;
     color: #872657;
+}
+
+footer {
+    background-color: #872658;
+    color: whitesmoke;
+}
+
+footer h5 {
+    color: whitesmoke;
+}
+
+footer .nav-link {
+    color: whitesmoke;
+}
+
+footer .fab {
+    color: whitesmoke;
 }
