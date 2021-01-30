@@ -55,6 +55,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /*-----------Sections---------*/
 .bg-warning {
+    margin-top: 50px; 
     font-family: fieldwork, sans-serif;
     font-weight: 600;
     font-style: bold;
@@ -106,4 +107,15 @@ footer .nav-link {
 
 footer .fab {
     color: whitesmoke;
+}
+
+/*-----------Images---------*/
+
+.t-shirt {
+    background-image: url(../img/t-shirt-mockup-featuring-a-bearded-man-with-sunglasses-posing-in-front-of-some-plants-2248-el1.png);
+    background-color: seashell;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 75vh;
+    
 }
