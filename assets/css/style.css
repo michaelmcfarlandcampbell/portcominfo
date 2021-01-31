@@ -93,14 +93,34 @@ h1, h2, h3, h4, h5, h6 {
     background-color: whitesmoke;
 }
 
-.food-section {
+.food {
     background-color: #DAFBD0;
 }
+
 
 #food {
     padding-top: 10px;
 }
 
+.pharmacy {
+    background-color: #E03F92;
+}
+
+.pharmacy h3, table {
+    color: whitesmoke;
+}
+
+.pharmacy a {
+    color: whitesmoke;
+}
+
+#pharmacy {
+    padding-top: 10px;
+}
+
+.church {
+    background-color: #f8de7e;
+}
 footer {
     background-color: #872658;
     color: whitesmoke;
