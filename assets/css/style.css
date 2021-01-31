@@ -104,6 +104,14 @@ h1, h2, h3, h4, h5, h6 {
     background-color: whitesmoke;
 }
 
+.fuel {
+    background-color: burlywood;
+}
+
+#fuel {
+    padding-top: 10px; 
+}
+
 .food {
     background-color: #DAFBD0;
 }
