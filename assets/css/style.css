@@ -79,9 +79,7 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 5px; 
 }
 
-.about {
-   max-height: 60vh; 
-}
+
 
 .history {
     background-color: silver;
@@ -100,20 +98,20 @@ h1, h2, h3, h4, h5, h6 {
     color: #872657;
 }
 
-.footer {
+footer {
     background-color: #872658;
     color: whitesmoke;
 }
 
-.footer h5 {
+footer h5 {
     color: whitesmoke;
 }
 
-.footer .nav-link {
+footer .nav-link {
     color: whitesmoke;
 }
 
-.footer .fab {
+footer .fab {
     color: whitesmoke;
 }
 
