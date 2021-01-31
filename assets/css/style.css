@@ -93,12 +93,12 @@ h1, h2, h3, h4, h5, h6 {
     background-color: whitesmoke;
 }
 
-.breadcrumb {
-    height: 10vh;
+.food-section {
+    background-color: #DAFBD0;
 }
-.breadcrumb-info {
-    background-color: #ffffff;
-    color: #872657;
+
+#food {
+    padding-top: 10px;
 }
 
 footer {
