@@ -66,7 +66,17 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /*-----------Sections---------*/
+#covid-19 {
+    background-color: yellow;
+}
+
+.covid-19-item {
+    background-color: yellow;
+    color: black;
+}
+
 .covid-19-banner {
+    background-color: yellow;
     margin-top: 100px; 
     font-family: fieldwork, sans-serif;
     font-weight: 600;
@@ -74,11 +84,12 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     padding: 5px 10px 5px 10px;
     border-radius: 15px;  
+
 }
 
 .covid-19-banner a {
     background-color: black;
-    color: #ffc107;
+    color: yellow;
     padding: 0px 5px 0px 5px;
     border-radius: 5px; 
 }
