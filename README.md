@@ -1,5 +1,12 @@
 # Portarlington Community Info
 
+
+## UX 
+
+
+
+
+
 ## Goals
 ### External user's goal:
 
@@ -12,6 +19,9 @@ The site owner wants to help the local community by highlighting events that are
 * Showcase photos both historical and modern of the town
 * Showcase local shops
 * Shop to purchase merchandise 
+
+
+##Features 
 
 ## Pages
 ### About us
@@ -29,3 +39,23 @@ Each category will have a recommended entry marked with a red heart using an ico
 
 ### Support us
 This page will have opportunities to support the local community organisation by highlighting merchandise available from local shops or online.
+
+
+## Technologies Used 
+
+## Testing 
+
+## Deployment 
+
+## Credits
+
+### Content 
+* The content of the page is from my own research of the town. 
+
+### Media
+* The photo on the home page is of one of the bridges over the River Barrow, taken by myself. 
+* The image of the t-shirt is one using an photo of a forest view near Portarlington, taken by myself, and manipulated using Adobe Illustrator, and PlaceIt.net.
+
+### Acknowledgements
+
+* I received inspiration for this project from my husband, Andrew. 
