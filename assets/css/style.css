@@ -80,7 +80,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .about {
-    height: 75vh;
+   max-height: 60vh; 
 }
 
 .history {
@@ -100,20 +100,20 @@ h1, h2, h3, h4, h5, h6 {
     color: #872657;
 }
 
-footer {
+.footer {
     background-color: #872658;
     color: whitesmoke;
 }
 
-footer h5 {
+.footer h5 {
     color: whitesmoke;
 }
 
-footer .nav-link {
+.footer .nav-link {
     color: whitesmoke;
 }
 
-footer .fab {
+.footer .fab {
     color: whitesmoke;
 }
 
@@ -133,5 +133,6 @@ footer .fab {
     background-color: seashell;
     background-position: center center; 
     background-repeat: no-repeat;
-    max-height: 75vh;
+    min-height: 40vh;
+    max-height: 60vh;
 }
