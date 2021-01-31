@@ -121,6 +121,19 @@ h1, h2, h3, h4, h5, h6 {
 .church {
     background-color: #f8de7e;
 }
+
+#church {
+    padding-top: 10px;
+}
+
+.banking {
+    background-color: #a6e7ff;
+}
+
+#banking {
+    padding-top: 10px;
+}
+
 footer {
     background-color: #872658;
     color: whitesmoke;
