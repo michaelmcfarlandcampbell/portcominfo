@@ -25,6 +25,7 @@ This page will have a list of local shops to get
 * Church
 * Banking
 
+Each category will have a recommended entry marked with a red heart using an icon from Fontawesome. 
 
 ### Support us
 This page will have opportunities to support the local community organisation by highlighting merchandise available from local shops or online.

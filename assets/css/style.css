@@ -47,7 +47,11 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center; 
 }
 
-
+.bg-info {
+    border-radius: 15px;
+    text-align: center;
+    padding: 5px; 
+}
 
 /*------------Colours---------*/
 
@@ -65,12 +69,14 @@ h1, h2, h3, h4, h5, h6 {
     font-style: bold;
     text-align: center;
     padding: 5px 10px 5px 10px;
+    border-radius: 15px;  
 }
 
 .covid-19-banner a {
     background-color: black;
     color: #ffc107;
     padding: 0px 5px 0px 5px;
+    border-radius: 5px; 
 }
 
 .about {
