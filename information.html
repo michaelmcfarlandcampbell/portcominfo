@@ -65,14 +65,44 @@
         </div>
         <div class="container-fluid">
         <div class="row">
-                <div class="col recommendation">
+                <div class="col-6 recommendation">
                     <h2>Got a recommendation?</h2>
                     <p>Have you received great service in a local business?</p>
                     <p>Do you want us to create a new category?</p>
-                    
+                </div>
+                <div class="col-6">
+                    <form>
+                        <p>
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="fname">
+                        </p>
+                        <p>
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lname">
+                        </p>
+                        <p>Tick the appropriate statement 
+                        <label>
+                            <input type="radio" name="submission" value="great service" /> I have received great service. (insert details below)
+                        </label>
+                        <label>
+                            <input type="radio" name="submission" value="new category" /> I want to suggest a new category. (insert details below)
+                        </label>
+                        </p>
+                        <p>
+                            <label for="details">
+                                Details:
+                            </label>
+                            <textarea name="details" id="details" cols="30" rows="10">
+
+                            </textarea>
+                        </p>
+
+</form>
                     <button type="button" class="btn btn-primary">
-  Get in touch!
-</button>
+                        Get in touch!
+                    </button>
+                </div>
+                    
 
 
                     
