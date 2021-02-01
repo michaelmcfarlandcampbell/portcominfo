@@ -93,6 +93,19 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 5px; 
 }
 
+.recommendation {
+    background-color: #872657;
+    color: white;
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+    margin-bottom: 20px; 
+    border-radius: 15px; 
+     
+}
+
+.recommendation h2 {
+    color: white;
+}
 .about {
     background-color: silver;
     padding-left: 10px;
