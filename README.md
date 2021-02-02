@@ -1,5 +1,5 @@
-# Portarlington Community Info
-
+#Portarlington Information 2021 (PortInfo-2021)
+<img src="assets/img/mockup/PortInfo-2021-screenshot.png" alt="screenshot of PortInfo-2021 Local information page">
 
 ## UX 
 
@@ -21,7 +21,7 @@ The site owner wants to help the local community by highlighting events that are
 * Shop to purchase merchandise 
 
 
-##Features 
+## Features 
 
 ## Pages
 ### About us
@@ -67,7 +67,7 @@ The page is designed to be user-friendly. The same templates are used on each pa
 * CSS
 
 ### Frameworks Used
-* [balsamiq]
+* [balsamiq](https://balsamiq.com/) - Used to create wireframes in the design phase to show clear layouts. 
 * [Bootstrap4](https://getbootstrap.com) - This framework was used to ensure all pages were responsive across all devices.
 * [Font Awesome](https://fontawesome.com) - Using well-known icons to highlight text throughout the site, to enhance the user experience.
 * [Git](https://git-scm.com/) - Used via the [Gitpod](https://gitpod.io) platform to create, commit, and push changes in the code to GitHub.
