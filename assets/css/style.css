@@ -64,6 +64,7 @@ nav .fas {
     text-align: right;
 }
 
+
 /*------------Colours---------*/
 
 .fa-heart {
@@ -142,21 +143,34 @@ nav .fas {
 
 .information {
     background-color: whitesmoke;
-    padding-left: 10px;
+    padding-left: 20px;
+}
+
+.bd-callout {
+    padding: 1.25rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    border: 1px solid #e9ecef;
+    border-left-width: .25rem;
+    border-radius: .25rem;
+}
+
+.bd-callout-info {
+    border-left-color: #5bc0de;
 }
 
 .fuel {
     background-color: burlywood;
-    padding-left: 10px;
 }
 
 #fuel {
-    padding-top: 10px; 
+    padding-top: 20px; 
+    padding-left: 20px;
 }
 
 .food {
     background-color: #DAFBD0;
-    padding-left: 10px;
+    padding-left: 20px;
 }
 
 
@@ -165,16 +179,16 @@ nav .fas {
 }
 
 .leisure {
-    background-color: #8db600
+    background-color: #8db600;
 }
 
 #leisure {
-    padding-top: 10px;
+    padding-top: 20px;
+    padding-left: 20px; 
 }
 
 .pharmacy {
     background-color: #E03F92;
-    padding-left: 10px;
 }
 
 .pharmacy h3 {
@@ -187,7 +201,9 @@ nav .fas {
 
 #pharmacy {
     padding-top: 10px;
+    padding-left: 20px; 
 }
+
 
 .church {
     background-color: #f8de7e;
@@ -195,16 +211,18 @@ nav .fas {
 }
 
 #church {
-    padding-top: 10px;
+    padding-top: 20px;
+    padding-left: 20px; 
+    padding-right: 20px; 
 }
 
 .banking {
-    background-color: #a6e7ff;
-    padding-left: 10px;
+    background-color: #ffc0cb;
 }
 
 #banking {
-    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px; 
 }
 
 footer {
