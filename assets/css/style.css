@@ -161,23 +161,28 @@ nav .fas {
     border-left-color: #5bc0de;
 }
 
+.banking {
+    background-color: #ffc0cb;
+}
+
+#banking {
+    padding-left: 20px;
+}
+
+.food {
+    background-color: #DAFBD0;
+}
+
+#food {
+    padding-top: 20px;
+}
+
 .fuel {
     background-color: burlywood;
 }
 
 #fuel {
     padding-top: 20px; 
-    padding-left: 20px;
-}
-
-.food {
-    background-color: #DAFBD0;
-    padding-left: 20px;
-}
-
-
-#food {
-    padding-top: 10px;
 }
 
 .leisure {
@@ -186,37 +191,23 @@ nav .fas {
 
 #leisure {
     padding-top: 20px;
-    padding-left: 20px; 
 }
 
-.chemist {
+.pharmacy {
     background-color: rgba(255, 166, 0, 0.808);
 }
 
-#chemist {
-    padding-top: 10px;
-    padding-left: 20px; 
+#pharmacy {
+    padding-top: 20px;
 }
 
 
 .church {
     background-color: #f8de7e;
-    padding-left: 10px;
 }
 
 #church {
     padding-top: 20px;
-    padding-left: 20px; 
-    padding-right: 20px; 
-}
-
-.banking {
-    background-color: #ffc0cb;
-}
-
-#banking {
-    padding-left: 20px;
-    padding-right: 20px; 
 }
 
 footer {
