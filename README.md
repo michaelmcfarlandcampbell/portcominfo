@@ -43,6 +43,23 @@ Some categories will have a recommended entry marked with a red heart using an i
 ### Support us
 This page will have opportunities to support the local community organisation by highlighting merchandise available from local shops or online.
 
+## Design
+### Imagery 
+
+### Colour Scheme
+
+### Typography
+The two fonts are used to complement each other and clearly distinguish between items. 
+#### Headings
+Use the Fieldwork font. 
+
+#### Body text and menus 
+The [Le Monde Livre Classic](https://fonts.adobe.com/fonts/le-monde-livre-classic) typeface is used for body text and menus. When choosing the font, particular care was taken to ensure that ≪Old Style≫ numbers were available. 
+
+
+
+### Continuity 
+The page is designed to be user-friendly. The same templates are used on each page with similar headers and footers. This should make it easy and accessible for each user. 
 
 ## Technologies Used 
 ### Languages Used
