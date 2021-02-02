@@ -8,6 +8,7 @@ body {
     font-feature-settings: "onum";
     margin-left: 20px;
     margin-right: 20px; 
+    font-size: 0.9em;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -188,11 +189,9 @@ nav .fas {
 }
 
 .pharmacy {
-    background-color: #E03F92;
+    background-color: orange;
 }
 
-.pharmacy h3 {
-    color: whitesmoke;
 }
 
 .pharmacy a {
