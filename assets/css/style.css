@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6 {
 /*-----------------------NavBar-----*/
 
 .navbar {
-        font-family: le-monde-livre-classic-byol, serif;
+    font-family: le-monde-livre-classic-byol, serif;
     font-weight: 300;
     font-style: normal;
 	font-variant-numeric: oldstyle-nums;
@@ -42,9 +42,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-item {
-    padding-left: 5px;
-    padding-right: 5px;
     text-align: center; 
+}
+
+.nav-item-info {
+    width: 33%;
 }
 
 .bg-info {
@@ -93,7 +95,7 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 5px; 
 }
 
-.recommendation {
+.contact {
     background-color: #872657;
     color: white;
     text-align: center;
@@ -104,7 +106,7 @@ h1, h2, h3, h4, h5, h6 {
      
 }
 
-.recommendation h1, h2, h3, h4, h5, h6 {
+.contact h4 {
     color: white;
 }
 
@@ -114,7 +116,9 @@ h1, h2, h3, h4, h5, h6 {
     font-style: normal;
 }
 
-.recommendation button {
+.recommendation-submit {
+    background-color: white;
+    color: #872657;
     font-family: fieldwork, sans-serif;
     font-weight: 300;
     font-style: normal;
