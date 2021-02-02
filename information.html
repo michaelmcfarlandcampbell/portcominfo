@@ -38,10 +38,6 @@
                                 <span class="badge rounded-pill bg-success">New</span>
                             </a>
                         </li>
-                        <li class="nav-item covid-19-item">
-                            <a class="nav-link" href="https://www.gov.ie/covid19" target="_blank"><i
-                                    class="fas fa-virus"></i> Covid-19</a>
-                        </li>
                     </ul>
                 </div>
 
@@ -94,21 +90,25 @@
             <div class="col">
                 <nav>
                     <ul class="nav">
-                        <li class="nav-item fuel nav-item-info">
-                            <a class="nav-link" href="#fuel"><i class="fas fa-fire"></i><br>Fuel</a>
-                        </li>
-                        <li class="nav-item food nav-item-info">
-                            <a class="nav-link" href="#food"><i class="fas fa-store-alt"></i><br>Food</a>
-                        </li>
-                        <li class="nav-item pharmacy nav-item-info">
-                            <a class="nav-link pharmacy" href="#pharmacy"> <i class="fas fa-prescription"></i><br>Pharmacies</a>
+                        <li class="nav-item banking nav-item-info">
+                            <a class="nav-link" href="#banking"><i class="fas fa-money-bill-alt"></i><br>Banking</a>
                         </li>
                         <li class="nav-item church nav-item-info">
                             <a class="nav-link" href="#church"><i class="fas fa-church"></i><br>Churches</a>
                         </li>
-                        <li class="nav-item banking nav-item-info">
-                            <a class="nav-link" href="#banking"><i class="fas fa-money-bill-alt"></i><br>Banking</a>
+                        <li class="nav-item food nav-item-info">
+                            <a class="nav-link" href="#food"><i class="fas fa-store-alt"></i><br>Food</a>
                         </li>
+                        <li class="nav-item fuel nav-item-info">
+                            <a class="nav-link" href="#fuel"><i class="fas fa-fire"></i><br>Fuel</a>
+                        </li>
+                        <li class="nav-item leisure nav-item-info">
+                            <a class="nav-link" href="#leisure"><i class="fas fa-running"></i><br>Leisure</a>
+                        </li>
+                        <li class="nav-item pharmacy nav-item-info">
+                            <a class="nav-link pharmacy" href="#pharmacy"> <i class="fas fa-prescription"></i><br>Pharmacies</a>
+                        </li>
+                        
                     </ul>
                 </nav>
             </div>
@@ -120,87 +120,61 @@
                 <p class="bg-info callout">Entries marked <i class="fas fa-heart"></i> are highly recommended.</p>
             </div>
         </div>
-        <div class="row fuel">
-            <div class="col">
-                <h2 id="fuel"><i class="fas fa-fire"></i> Fuel</h2>
-                <p>Fuel can be bought at a number of outlets depending on the type of fuel: </p>
-                </div>
-                <!------------------Heating Oil-->
-                <div class="row">
-                <div class="col-sm-12 col-md-6 col-lg-6">
-                    <h3><i class="fas fa-home"></i> Heating Oil</h3>
-                    <table class="table">
-                        <thead>
-                            <tr>
-                                <th scope="col"><i class="far fa-building"></i> Company</th>
-                                <th scope="col"><i class="fas fa-location-arrow"></i> Location</th>
-                                <th scope="col"><i class="fas fa-phone"></i> Phone</th>
-                                <th scope="col"><i class="fas fa-link"></i> Website</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th scope="row"><i class="fas fa-heart"></i> W.H. Deverell Ltd</th>
-                                <td>Ballymorris Road,<br>Portarlington,<br>R32 C8Y4</td>
-                                <td>057&nbsp;862&nbsp;3284</td>
-                                <td><a href="https://www.capitaloil.com" target="_blank"><i class="fas fa-link"></i></a></td>
-                            </tr>
-                            <tr>
-                                <th scope="row">M. Luttrell & Son</th>
-                                <td>Kilbride,<br>Portarlington,<br>R32 AX85</td>
-                                <td>057&nbsp;862&nbsp;3142</td>
-                                <td>N/A</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Emo Oil Ltd</th>
-                                <td>Clonminam Industrial Estate,<br>Port Laoise,<br>R32 YY26</td>
-                                <td>1850&nbsp;366&nbsp;425</td>
-                                <td><a href="https://emo.ie" target="_blank"><i class="fas fa-link"></i></a></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
+<!------------------Banking ---------->
+        <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-6 banking">
+                <h3 id="banking"><i class="fas fa-money-bill-alt"></i><br>Banking</h3>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col"><i class="far fa-building"></i><br>Company</th>
+                            <th scope="col"><i class="fas fa-location-arrow"></i><br>Location</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row"><a href="https://www.bankofireland.com/" target="_blank"><i class="fas fa-link"></i></a> Bank of Ireland</a><br><span class="badge rounded-pill bg-primary">BRANCH</span> <span class="badge rounded-pill bg-primary">ATM</span></th>
+                            <td>Main Street,<br>Portarlington,<br>R32 A090 </td>
+                        </tr>
+                        <tr>
+                            <th scope="row"><a href="https://digital.ulsterbank.ie/" target="_blank"><i class="fas fa-link"></i></a> Ulster Bank</a><br><span class="badge rounded-pill bg-primary">ATM</span></th>
+                            <td>Maxol,<br>Main Street,<br>Portarlington,<br>R32 N4FD</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
 
-
-                <!------------------Peat Briquettes-->
-                <div class="col-sm-12 col-md-6 col-lg-6">
-                    <h3><i class="fas fa-fire-alt"></i> Peat Briquettes</h3>
-                    <table class="table">
-                        <thead>
-                            <tr>
-                                <th scope="col"><i class="far fa-building"></i> Company</th>
-                                <th scope="col"><i class="fas fa-location-arrow"></i> Location</th>
-                                <th scope="col"><i class="fas fa-phone"></i> Phone</th>
-                                <th scope="col"><i class="fas fa-link"></i> Website</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th scope="row">Burbages Supermarket</th>
-                                <td>Main Street,<br>Portarlington,<br>R32 C8Y4</td>
-                                <td>057&nbsp;862&nbsp;3284</td>
-                                <td>—</td>
-                            </tr>
-                            <tr>
-                                <th scope="row"><i class="fas fa-heart"></i> John Fletcher Ltd</th>
-                                <td>The White House,<br>Main Street,<br>Portarlington,<br>R32 H6RK</td>
-                                <td>057&nbsp;864&nbsp;0556</td>
-                                <td><a href="http://www.fletchershardware.ie/" target="_blank"><i class="fas fa-link"></i></a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Maxol</th>
-                                <td>Main Street,<br>Portarlington,<br>R32 N4FD</td>
-                                <td>—</td>
-                                <td>—</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
+ <!------------------Churches---------->
+        
+            <div class="col-sm-12 col-md-6 col-lg-6 church">
+                <h3 id="church"><i class="fas fa-church"></i><br>Churches</h3>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col"><i class="far fa-building"></i><br>Company</th>
+                            <th scope="col"><i class="fas fa-location-arrow"></i><br>Location</th>
+                            <th scope="col"><i class="fas fa-cross"></i><br>Denomination</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row"><a href="https://www.portarlingtonparish.ie/" target="_blank"><i class="fas fa-link"></i></a> St Michael's</th>
+                            <td>Patrick Street,<br>Portarlington,<br>R32 C8Y4</td>
+                            <td>Roman Catholic</td>
+                        </tr>
+                        <tr>
+                            <th scope="row"><a href="https://www.facebook.com/PMChurchofIreland" target="_blank"><i class="fab fa-facebook-square"></i></a> St Paul's (the French Church)</th>
+                            <td>French Church Street,<br>Droughill,<br>Portarlington,<br>R32 DVF6</td>
+                            <td>Church of Ireland</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
 
+        
 
+<!------------------Food---------->
         <div class="row food">
             <div class="col">
                 <h2 id="food"><i class="fas fa-store-alt"></i> Food</h2>
@@ -209,37 +183,33 @@
                 </p>
             </div>
         </div>
-                <!------------------Food---------->
+                
         <div class="row food">
             <div class="col-sm-12 col-md-6 col-lg-6">
                 <h3><i class="fas fa-shopping-bag"></i><br>Shops to buy food</h3>
                 <table class="table">
                     <thead>
                         <tr>
-                            <th scope="col"><i class="far fa-building"></i> Company</th>
-                            <th scope="col"><i class="fas fa-location-arrow"></i> Location</th>
-                            <th scope="col"><i class="fas fa-phone"></i> Phone</th>
-                            <th scope="col"><i class="fas fa-link"></i> Website</th>
+                            <th scope="col"><i class="far fa-building"></i><br>Company</th>
+                            <th scope="col"><i class="fas fa-location-arrow"></i><br>Location</th>
+                            <th scope="col"><i class="fas fa-phone"></i><br>Phone</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <th scope="row">McLoughlin's Supervalu</th>
+                            <th scope="row"><a href="https://www.supervalu.ie" target="_blank"><i class="fas fa-link"></i></a> McLoughlin's Supervalu</th>
                             <td>The Arlington Centre,<br>Droughill,<br>Portarlington,<br>R32 DVF6</td>
                             <td>057&nbsp;862&nbsp;3178</td>
-                            <td><a href="https://www.supervalu.ie" target="_blank"><i class="fas fa-link"></i></a></td>
                         </tr>
                         <tr>
                             <th scope="row">Burbages Supermarket</th>
                             <td>Main Street,<br>Portarlington,<br>R32 C8Y4</td>
                             <td>057&nbsp;862&nbsp;3284</td>
-                            <td>N/A</td>
                         </tr>
                         <tr>
-                            <th scope="row"><i class="fas fa-heart"></i> A&S Meats</th>
+                            <th scope="row"><i class="fas fa-heart"></i> <a href="https://www.facebook.com/A-S-MEATS-205332799644232/" target="_blank"><i class="fab fa-facebook-square"></i></a> A&S Meats</th>
                             <td>Main Street,<br>Portarlington,<br>R32 KV2K</td>
                             <td>057&nbsp;86&nbsp;84565</td>
-                            <td><a href="https://www.facebook.com/A-S-MEATS-205332799644232/" target="_blank"><i class="fab fa-facebook-square"></i></a></td>
                         </tr>
                     </tbody>
                 </table>
@@ -283,8 +253,117 @@
             </div>
         </div>
 
+        <!------------------Fuel-->
+        <div class="row fuel">
+            <div class="col">
+                <h2 id="fuel"><i class="fas fa-fire"></i> Fuel</h2>
+                <p>Fuel can be bought at a number of outlets depending on the type of fuel: </p>
+                </div>
+                <!------------------Heating Oil-->
+                <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <h3><i class="fas fa-home"></i> Heating Oil</h3>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col"><i class="far fa-building"></i><br>Company</th>
+                                <th scope="col"><i class="fas fa-location-arrow"></i><br>Location</th>
+                                <th scope="col"><i class="fas fa-phone"></i><br>Phone</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row"><i class="fas fa-heart"></i> <a href="https://www.capitaloil.com" target="_blank"><i class="fas fa-link"></i></a> W.H. Deverell Ltd</th>
+                                <td>Ballymorris Road,<br>Portarlington,<br>R32 C8Y4</td>
+                                <td>057&nbsp;862&nbsp;3284</td>
+                               </tr>
+                            <tr>
+                                <th scope="row">M. Luttrell & Son</th>
+                                <td>Kilbride,<br>Portarlington,<br>R32 AX85</td>
+                                <td>057&nbsp;862&nbsp;3142</td>
+                                <</tr>
+                            <tr>
+                                <th scope="row"><a href="https://emo.ie" target="_blank"><i class="fas fa-link"></i></a> Emo Oil Ltd</th>
+                                <td>Clonminam Industrial Estate,<br>Port Laoise,<br>R32 YY26</td>
+                                <td>1850&nbsp;366&nbsp;425</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+
+                <!------------------Peat Briquettes-->
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <h3><i class="fas fa-fire-alt"></i> Peat Briquettes</h3>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col"><i class="far fa-building"></i><br>Company</th>
+                                <th scope="col"><i class="fas fa-location-arrow"></i><br>Location</th>
+                                <th scope="col"><i class="fas fa-phone"></i><br>Phone</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Burbages Supermarket</th>
+                                <td>Main Street,<br>Portarlington,<br>R32 C8Y4</td>
+                                <td>057&nbsp;862&nbsp;3284</td>                                
+                            </tr>
+                            <tr>
+                                <th scope="row"><i class="fas fa-heart"> </i><a href="http://www.fletchershardware.ie/" target="_blank"><i class="fas fa-link"></i></a> John Fletcher Ltd</th>
+                                <td>The White House,<br>Main Street,<br>Portarlington,<br>R32 H6RK</td>
+                                <td>057&nbsp;864&nbsp;0556</td>
+                                <td>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Maxol</th>
+                                <td>Main Street,<br>Portarlington,<br>R32 N4FD</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!--------Leisure-->
+
+
+        <div class="row leisure">
+        <div class="col-sm-12 col-md-6 col-lg-6 ">
+                   
+                <h3 id="leisure"><i class="fas fa-running"></i><br>Leisure</h3>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col"><i class="far fa-building"></i> Company</th>
+                            <th scope="col"><i class="fas fa-location-arrow"></i> Location</th>
+                            <th scope="col"><i class="fas fa-phone"></i> Phone</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row"><i class="fas fa-heart"></i> <a href="https://emocourt.ie" target="_blank"><i class="fas fa-link"></i></a> Emo Court & Parklands</th>
+                            <td>Emo,<br>Co. Laois,<br>R32 C44V</td>
+                            <td>057&nbsp;862&nbsp;6573<br>057&nbsp;862&nbsp;6460</td>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row"><a href="http://www.portarlingtonleisurecentre.ie/" target="_blank"><i class="fas fa-link"></i></a> Portarlington Leisure Centre</th>
+                            <td>Link Road,<br>Portarlington,<br>R32 AE68</td>
+                            <td>057&nbsp;864&nbsp;5800</td>
+                        </tr>
+                        <tr>
+                            <th scope="row"><a href="https://www.portarlingtontennisclub.ie/" target="_blank"><i class="fas fa-link"></i></a> Portarlington Tennis Club</th>
+                            <td>20 Station Road,<br>Portarlington,<br>R32 AY18</td>
+                            <td>087&nbsp;123&nbsp;1135<br>085&nbsp;668&nbsp;6215</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
                 <!------------------Pharmacies---------->
-         <div class="row">
+        
             <div class="col-sm-12 col-md-6 col-lg-6 pharmacy">
                    
                 <h3 id="pharmacy"><i class="fas fa-prescription"></i><br>Pharmacies</h3>
@@ -321,39 +400,10 @@
                 </table>
             </div>
             
+            
 
 
-                <!------------------Churches---------->
-        
-            <div class="col-sm-12 col-md-6 col-lg-6 church">
-                <h3 id="church"><i class="fas fa-church"></i><br>Churches</h3>
-                <table class="table">
-                    <thead>
-                        <tr>
-                            <th scope="col"><i class="far fa-building"></i> Company</th>
-                            <th scope="col"><i class="fas fa-location-arrow"></i> Location</th>
-                            <th scope="col"><i class="fas fa-cross"></i> Denomination</th>
-                            <th scope="col"><i class="fas fa-link"></i> Website</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th scope="row">St Michael's</th>
-                            <td>Patrick Street,<br>Portarlington,<br>R32 C8Y4</td>
-                            <td>Roman Catholic</td>
-                            <td><a href="https://www.portarlingtonparish.ie/" target="_blank"><i class="fas fa-link"></i></a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th scope="row">St Paul's (the French Church)</th>
-                            <td>French Church Street,<br>Droughill,<br>Portarlington,<br>R32 DVF6</td>
-                            <td>Church of Ireland</td>
-                            <td><a href="https://www.facebook.com/PMChurchofIreland" target="_blank"><i class="fab fa-facebook-square"></i></a></td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
+               
 
 <!------------------Banking ---------->
         <div class="row">

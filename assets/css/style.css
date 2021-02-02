@@ -49,6 +49,9 @@ h1, h2, h3, h4, h5, h6 {
     width: 33%;
 }
 
+nav .fas {
+    font-size: 30pt;
+}
 .bg-info {
     border-radius: 15px;
     text-align: center;
@@ -159,12 +162,20 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 10px;
 }
 
+.leisure {
+    background-color: #8db600
+}
+
+#leisure {
+    padding-top: 10px;
+}
+
 .pharmacy {
     background-color: #E03F92;
     padding-left: 10px;
 }
 
-.pharmacy h3, table {
+.pharmacy h3 {
     color: whitesmoke;
 }
 
