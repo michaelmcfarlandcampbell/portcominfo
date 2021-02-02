@@ -19,6 +19,10 @@ h1, h2, h3, h4, h5, h6 {
     font-feature-settings: "onum";
     color: #872657;
 }
+
+h2 {
+    font-size: 1em;
+}
 /*-----------------------NavBar-----*/
 
 .navbar {
@@ -45,13 +49,19 @@ h1, h2, h3, h4, h5, h6 {
     
 }
 
+.nav-link-info {
+    font-size: 0.9em;
+}
+
 .nav-item {
     text-align: center; 
 }
 
 .nav-item-info {
     width: 33%;
+
 }
+
 
 nav .fas {
     font-size: 30pt;
@@ -194,7 +204,7 @@ nav .fas {
 }
 
 .pharmacy {
-    background-color: rgb(241, 194, 106);
+    background-color: skyblue;
 }
 
 #pharmacy {
