@@ -180,7 +180,7 @@ nav .fas {
 }
 
 .leisure {
-    background-color: #8db600;
+    background-color: #b3db2d;
 }
 
 #leisure {
@@ -189,11 +189,7 @@ nav .fas {
 }
 
 .pharmacy {
-    background-color: orange;
-}
-
-.pharmacy a {
-    color: whitesmoke;
+    background-color: rgba(255, 166, 0, 0.808);
 }
 
 #pharmacy {
