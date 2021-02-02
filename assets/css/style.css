@@ -100,10 +100,11 @@ h1, h2, h3, h4, h5, h6 {
     padding: 5px 10px 5px 10px;
     margin-bottom: 20px; 
     border-radius: 15px; 
+    text-transform: uppercase;
      
 }
 
-.recommendation h2 {
+.recommendation h1, h2, h3, h4, h5, h6 {
     color: white;
 }
 
@@ -119,18 +120,25 @@ h1, h2, h3, h4, h5, h6 {
     font-style: normal;
     text-transform: uppercase;
 }
+
+.uppercase {
+    text-transform: uppercase;
+}
+
 .about {
-    background-color: silver;
+    
     padding-left: 10px;
 }
 
 
 .information {
     background-color: whitesmoke;
+    padding-left: 10px;
 }
 
 .fuel {
     background-color: burlywood;
+    padding-left: 10px;
 }
 
 #fuel {
@@ -139,6 +147,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .food {
     background-color: #DAFBD0;
+    padding-left: 10px;
 }
 
 
@@ -148,6 +157,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .pharmacy {
     background-color: #E03F92;
+    padding-left: 10px;
 }
 
 .pharmacy h3, table {
@@ -164,6 +174,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .church {
     background-color: #f8de7e;
+    padding-left: 10px;
 }
 
 #church {
@@ -172,6 +183,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .banking {
     background-color: #a6e7ff;
+    padding-left: 10px;
 }
 
 #banking {
@@ -181,6 +193,8 @@ h1, h2, h3, h4, h5, h6 {
 footer {
     background-color: #872658;
     color: whitesmoke;
+    padding-left: 10px;
+    padding-top: 10px; 
 }
 
 footer h5 {

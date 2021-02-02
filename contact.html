@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Michael McFarland Campbell">
+    <meta name="description" content="PortInfo | Community Information about Portarlington, Co. Laois, Ireland">
+
+    <title>Portarlington Information 2021</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.typekit.net/wjb2urq.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://kit.fontawesome.com/968667d46b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar navbar-expand navbar-light bg-light fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">PortInfo-2021</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="information.html">Local info</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="support.html">Support us
+                                <span class="badge rounded-pill bg-success">New</span>
+                            </a>
+                        </li>
+                        <li class="nav-item covid-19-item">
+                            <a class="nav-link" href="https://www.gov.ie/covid19" target="_blank"><i
+                                    class="fas fa-virus"></i> Covid-19</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </nav>
+        <div class="container-fluid">
+            
+
+            <div class="row">
+                <div class="col">
+                    <p id="Covid-19" class="covid-19-banner"><strong><i class="fas fa-virus"></i> Covid-19
+                            Information</strong> Ireland is at Level 5.<br>Stay at Home except for essential
+                        reasons.<br>For more info see <a href="http://www.gov.ie/covid19/"
+                            target="_blank">gov.ie/covid19</a>
+                    </p>
+
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+<!----- Code based on https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/blob/master/17-adding-contact-form/contact.html-->
+
+<section class="container-fluid recommendation">
+        <div class="row bg-color-contact">
+            <div class="col">
+                <h3 class="contact-heading uppercase text-center">Got a Recommendation?<br>Want a new category?</h3>
+                <h5 class="uppercase text-center">Let's work together!</h5>
+                <h6>Enter N/A if not applicable in form</h6>
+
+                <div class="center-form">
+                    <form>
+                        <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
+                        <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required />
+                        <textarea rows="5" name="greatservice" id="greatservice" class="form-control" placeholder="Enter details of where you received great service." required></textarea>
+                        <textarea rows="5" name="newcategory" id="newcategory" class="form-control" placeholder="Enter new category" required></textarea>
+                        <div class="form-row text-center">
+                            <div class="col">
+                                <button type="submit" class="btn btn-secondary uppercase">Get in touch</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="container-fluid">
+        <div class="row">
+            <div class="col-4">
+                <h5>PortInfo-2021</h5>
+                <p>PortInfo-2021 is a project Milestone 1 of Code Institute Full Stack Software Development Diploma.</p>
+                <p>Copyright © 2021 Michæl McFarland Campbell </p>
+            </div>
+            <div class="col-4">
+
+            </div>
+            <div class="col-sm-4">
+                <h5 class="uppercase general-sub">Social</h5>
+                <ul class="list-inline social-links">
+                    <li class="list-inline-item">
+                        <a href="https://www.facebook.com/" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://twitter.com/" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                            <span class="sr-only">Twitter</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://www.linkedin.com/" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                            <span class="sr-only">LinkedIn</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>
