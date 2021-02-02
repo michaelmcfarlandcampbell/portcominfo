@@ -24,7 +24,7 @@ The site owner wants to help the local community by highlighting events that are
 ## Features 
 
 ## Pages
-### About us
+### Home
 Information about the page and the Portarlington Community Information Project.
 
 ### Local information
@@ -78,7 +78,7 @@ The page is designed to be user-friendly. The same templates are used on each pa
 ## Testing 
 * All HTML code was validated by [W3C Validator](https://validator.w3.org/)
 * All CSS stylings were validated by [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
-
+* Different browsers... 
 
 ## Deployment 
 GitHub pages... 
