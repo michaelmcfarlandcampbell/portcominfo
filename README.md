@@ -1,13 +1,17 @@
 # Portarlington Information 2021 (PortInfo-2021)
 ## Mockups
 ### Apple Pro Display XDR
-<img src="assets/img/mockup/PortInfo-2021-AppleProDisplayXDR.png" alt="screenshot of PortInfo-2021 Local information page">
+<img src="assets/img/mockup/PortInfo-2021-AppleProDisplayXDR.png" alt="mockup of PortInfo-2021 Local information page">
 
 ### Laptop
-<img src="assets/img/mockup/PortInfo-2021-Laptop.jpg">
+<img src="assets/img/mockup/PortInfo-2021-Laptop.jpg" alt="mockup up of PortInfo-2021 Local Information Fuel section>
+
+### iPad Pro
+<img src="assets/img/mockup/PortInfo-2021-iPadInformation.png">
 
 ### Three pages on three iPhones
 <img src="assets/img/mockup/PortInfo-2021-ThreeIphones.png" alt="PortInfo-2021 on three iPhone screens">
+
 ## UX 
 
 
