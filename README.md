@@ -103,6 +103,7 @@ GitHub pages...
 ### Media
 * The photo on the home page is of one of the bridges over the River Barrow, taken by myself. 
 * The image on the t-shirt is one using an photo of a forest view near Portarlington, taken by myself, and manipulated using [Adobe Illustrator](https://www.adobe.com/ie/products/illustrator.html), and [PlaceIt.net](https://PlaceIt.net).
+* Honeybadger Design logo is my own logo for work I do as a designer.
 
 ### Acknowledgements
 
