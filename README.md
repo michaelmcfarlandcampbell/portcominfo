@@ -12,6 +12,7 @@
 ### Three pages on three iPhones
 <img src="assets/img/mockup/PortInfo-2021-ThreeIphones.png" alt="PortInfo-2021 on three iPhone screens">
 
+[View the live project here.](https://michaelmcfarlandcampbell.github.io/portcominfo/information.html)
 ## UX 
 
 
