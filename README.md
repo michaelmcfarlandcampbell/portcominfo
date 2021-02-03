@@ -1,18 +1,13 @@
 # Portarlington Information 2021 (PortInfo-2021)
-## Mockups
-### Apple Pro Display XDR
-<img src="assets/img/mockup/PortInfo-2021-AppleProDisplayXDR.png" alt="mockup of PortInfo-2021 Local information page">
 
-### Laptop
-<img src="assets/img/mockup/PortInfo-2021-Laptop.jpg" alt="mockup of PortInfo-2021 Local Information page">
 
-### iPad Pro
-<img src="assets/img/mockup/PortInfo-2021-iPadInformation.png" alt="mockup of PortInfo-2021 Local Information Fuel section">
+<img src="assets/img/mockup/PortInfo-2021-MockUp.png" alt="mockup of PortInfo-2021 Local information page">
 
-### Three pages on three iPhones
+
 <img src="assets/img/mockup/PortInfo-2021-ThreeIphones.png" alt="PortInfo-2021 on three iPhone screens">
 
 [View the live project here.](https://michaelmcfarlandcampbell.github.io/portcominfo/information.html)
+
 ## UX 
 
 
@@ -60,7 +55,8 @@ This page will have opportunities to support the local community organisation by
 ### Imagery 
 
 ### Colour Scheme
-The main colour is a <span style="color:#872658">Dark Rasberry #872658</span>, which is an approximation for the colour of the Portarlington GAA and Rugby clubs colours. This colour is used for the footer background, and for most headings.
+The main colour is 
+* ![#006DEB](https://via.placeholder.com/15/872658/000000?text=+) `#872658` which is an approximation for the colour of the Portarlington GAA and Rugby clubs colours. This colour is used for the footer background, and for most headings.
 
 I used Adobe Colour to find complementary colours which are used to highlight each of the sections in the Information page. 
 
@@ -76,12 +72,13 @@ The [Le Monde Livre Classic](https://fonts.adobe.com/fonts/le-monde-livre-classi
 ### Continuity 
 The page is designed to be user-friendly. The same templates are used on each page with similar headers and footers. This should make it easy and accessible for each user. 
 
-## Technologies Used 
-### Languages Used
+## Technologies used 
+### Languages used
 [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/240px-HTML5_logo_and_wordmark.svg.png" height="60" aria-label="HTML5">](https://en.wikipedia.org/wiki/HTML5)
 [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/240px-CSS3_logo_and_wordmark.svg.png" height="60" aria-label="CSS">](https://en.wikipedia.org/wiki/CSS) 
 
-### Frameworks Used
+### Frameworks and tools used
+* [Am I responsive](http://ami.responsivedesign.is/) - Used to create mockup of the information page for the README.md.
 * [balsamiq](https://balsamiq.com/) - Used to create wireframes in the design phase to show clear layouts. 
 * [Bootstrap4](https://getbootstrap.com) - This framework was used to ensure all pages were responsive across all devices.
 * [Font Awesome](https://fontawesome.com) - Using well-known icons to highlight text throughout the site, to enhance the user experience.
@@ -97,11 +94,28 @@ The page is designed to be user-friendly. The same templates are used on each pa
 
 ### CSS styling
 Although the CSS was validated by the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/), during testing, it was noted that the six areas: #banking #church, #food, #fuel, #leisure, and #pharmacy are all defined with a _padding-top:20px_ style. This could be achieved by creating a new class to join them all together and defining in that class. This would reduce the code required. 
-Therefore, I created a new class of `info-area` to replace `#banking #church #food #fuel #leisure #pharmacy`.
+
+Therefore, I created a new class of `info-area {padding-top: 20px;}` to replace `#banking {padding-top:20px;}`, `#church {padding-top:20px;}`, `#food {padding-top:20px;}`, `#fuel {padding-top:20px;}`, `#leisure {padding-top:20px;}`, and  `#pharmacy {padding-top:20px;}`.
 
 ### Images 
 
 Following feedback from my mentor that the images on the site were far too large to download quickly, especially if users were on a mobile connection, I used the [tinypng.com](https://www.tinypng.com) to reduce their sizes. The three clothing pictures on the Support page were reduced in size by about 80%. 
+
+### Additional feature
+Realised that users would not know which of the venues were closed due to the COVID-19 Level 5, so I decided to add a badge to show this. 
+
+Created a badge using `<span class="badge rounded-pill bg-warning uppercase">Closed due to COVID-19</span>`.
+
+When testing the site after this change, I realised that the <span style="background-color:#ffc107">Closed due to COVID-19</span> badge was too long and so had pushed the phone number into the right-hand margin when on an iPhone 6. 
+
+<img src="assets/img/PortInfo-2021-Testing-COVID19badge.png">
+
+Therefore, I altered the code to `<br><span class="badge rounded-pill bg-warning uppercase">Closed<br>COVID-19</span>`. which gave a badge of 
+
+<span style="background-color:#ffc107">Closed<br>COVID-19</span>. This ensured that the phone numbers remained in the box. 
+
+<img src="assets/img/PortInfo-2021-Testing-COVID19badge-success.jpeg">
+
 
 ### Browsers
 
