@@ -89,12 +89,18 @@ The page is designed to be user-friendly. The same templates are used on each pa
 * [Font Awesome](https://fontawesome.com) - Using well-known icons to highlight text throughout the site, to enhance the user experience.
 * [Git](https://git-scm.com/) - Used via the [Gitpod](https://gitpod.io) platform to create, commit, and push changes in the code to GitHub.
 * [GitHub](https://github.com) - Project stored in a repository and to incorporate changes made using Git. Also used for deployment via GitHub Pages. 
+* [Tinypng](https://www.tinypng.com) - Used to reduce images in size to aid loading on site. 
 * [Typekit](https://fonts.adobe.com/) - Used to source typefaces to complement each other. 
 
 
 ## Testing 
 * All HTML code was validated by [W3C Validator](https://validator.w3.org/)
 * All CSS stylings were validated by [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+
+### Images 
+
+Following feedback from my mentor that the images on the site were far too large to download quickly, especially if users were on a mobile connection, I used the [tinypng.com](https://www.tinypng.com) to reduce their sizes. The three clothing pictures on the Support page were reduced in size by about 80%. 
+
 * Different browsers... 
 
 ## Deployment 
