@@ -56,6 +56,7 @@ Some categories will have a recommended entry marked with a red heart using an i
 This page will have opportunities to support the local community organisation by highlighting merchandise available from local shops or online.
 
 ## Design
+
 ### Imagery 
 
 ### Colour Scheme
@@ -97,8 +98,14 @@ The page is designed to be user-friendly. The same templates are used on each pa
 * Different browsers... 
 
 ## Deployment 
-GitHub pages... 
+PortInfo-2021 was deployed using GitHub Pages. The following steps were followed: 
 
+1. Log into GitHub and locate the [PortInfo-2021 repository](https://github.com/michaelmcfarlandcampbell/portcominfo).
+2.  Press the <span style="background-color:#198754;color:white;padding:5px">Settings</span> button at the top of the page. 
+3. Scroll down the Settings page until you get to the **Git Hub Pages** section. 
+4. Under **Source** click where it says "None" and select "Branch: master".
+5. The page will refresh automatically. 
+6. Scroll back down to find **GitHub Pages** section, and the link to the site will be displayed. 
 
 ## Credits
 
