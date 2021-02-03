@@ -120,3 +120,5 @@ PortInfo-2021 was deployed using GitHub Pages. The following steps were followed
 ### Acknowledgements
 
 * I received inspiration for this project from my husband, Andrew, who said that this was the sort of thing we could have done with when we moved from Dublin to Portarlington in 2018.  
+* I thank my mentor, Chris Quinn, for all his support and encouragement. He has been brilliant. 
+* Everyone in CI Slack has been wonderful at supporting me. 
