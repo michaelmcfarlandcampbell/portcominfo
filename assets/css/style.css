@@ -72,6 +72,9 @@ nav .fas {
     padding: 5px; 
 }
  
+.bg-warning {
+    color: black;
+}
 .text-right {
     text-align: right;
 }
