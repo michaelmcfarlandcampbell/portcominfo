@@ -4,10 +4,10 @@
 <img src="assets/img/mockup/PortInfo-2021-AppleProDisplayXDR.png" alt="mockup of PortInfo-2021 Local information page">
 
 ### Laptop
-<img src="assets/img/mockup/PortInfo-2021-Laptop.jpg" alt="mockup up of PortInfo-2021 Local Information Fuel section>
+<img src="assets/img/mockup/PortInfo-2021-Laptop.jpg" alt="mockup of PortInfo-2021 Local Information page">
 
 ### iPad Pro
-<img src="assets/img/mockup/PortInfo-2021-iPadInformation.png">
+<img src="assets/img/mockup/PortInfo-2021-iPadInformation.png" alt="mockup of PortInfo-2021 Local Information Fuel section">
 
 ### Three pages on three iPhones
 <img src="assets/img/mockup/PortInfo-2021-ThreeIphones.png" alt="PortInfo-2021 on three iPhone screens">
