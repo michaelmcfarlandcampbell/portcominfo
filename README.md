@@ -59,11 +59,15 @@ This page will have opportunities to support the local community organisation by
 ### Imagery 
 
 ### Colour Scheme
+The main colour is a <span style="color:#872658">Dark Rasberry #872658</span>, which is an approximation for the colour of the Portarlington GAA and Rugby clubs colours. This colour is used for the footer background, and for most headings.
+
+I used Adobe Colour to find complementary colours which are used to highlight each of the sections in the Information page. 
 
 ### Typography
-The two fonts are used to complement each other and clearly distinguish between items. 
+The two typefaces used complement each other and clearly distinguish between items. 
+
 #### Headings
-Use the Fieldwork font. 
+Use the [Fieldwork](https://fonts.adobe.com/fonts/fieldwork) font. 
 
 #### Body text and menus 
 The [Le Monde Livre Classic](https://fonts.adobe.com/fonts/le-monde-livre-classic) typeface is used for body text and menus. When choosing the font, particular care was taken to ensure that ≪Old Style≫ numbers were available. 
@@ -75,8 +79,8 @@ The page is designed to be user-friendly. The same templates are used on each pa
 
 ## Technologies Used 
 ### Languages Used
-* HTML5
-* CSS
+[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/240px-HTML5_logo_and_wordmark.svg.png" height="60" aria-label="HTML5">](https://en.wikipedia.org/wiki/HTML5)
+[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/240px-CSS3_logo_and_wordmark.svg.png" height="60" aria-label="CSS">](https://en.wikipedia.org/wiki/CSS) 
 
 ### Frameworks Used
 * [balsamiq](https://balsamiq.com/) - Used to create wireframes in the design phase to show clear layouts. 
