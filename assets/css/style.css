@@ -174,52 +174,32 @@ nav .fas {
     border-left-color: #5bc0de;
 }
 
+.info-area {
+    padding-top: 20px;
+}
 .banking {
     background-color: #ffc0cb;
 }
 
-#banking {
-    padding-top: 20px;
-}
 
 .church {
     background-color: #f8de7e;
-}
-
-#church {
-    padding-top: 20px;
 }
 
 .food {
     background-color: #DAFBD0;
 }
 
-#food {
-    padding-top: 20px;
-}
-
 .fuel {
     background-color: burlywood;
-}
-
-#fuel {
-    padding-top: 20px; 
 }
 
 .leisure {
     background-color: #b3db2d;
 }
 
-#leisure {
-    padding-top: 20px;
-}
-
 .pharmacy {
     background-color: rgb(191, 227, 250);
-}
-
-#pharmacy {
-    padding-top: 20px;
 }
 
 footer {
