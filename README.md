@@ -73,8 +73,6 @@ Use the [Fieldwork](https://fonts.adobe.com/fonts/fieldwork) font.
 #### Body text and menus 
 The [Le Monde Livre Classic](https://fonts.adobe.com/fonts/le-monde-livre-classic) typeface is used for body text and menus. When choosing the font, particular care was taken to ensure that ≪Old Style≫ numbers were available. 
 
-
-
 ### Continuity 
 The page is designed to be user-friendly. The same templates are used on each page with similar headers and footers. This should make it easy and accessible for each user. 
 
@@ -97,11 +95,16 @@ The page is designed to be user-friendly. The same templates are used on each pa
 * All HTML code was validated by [W3C Validator](https://validator.w3.org/)
 * All CSS stylings were validated by [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 
+### CSS styling
+Although the CSS was validated by the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/), during testing, it was noted that the six areas: #banking #church, #food, #fuel, #leisure, and #pharmacy are all defined with a _padding-top:20px_ style. This could be achieved by creating a new class to join them all together and defining in that class. This would reduce the code required. 
+Therefore, I created a new class of `info-area` to replace `#banking #church #food #fuel #leisure #pharmacy`.
+
 ### Images 
 
 Following feedback from my mentor that the images on the site were far too large to download quickly, especially if users were on a mobile connection, I used the [tinypng.com](https://www.tinypng.com) to reduce their sizes. The three clothing pictures on the Support page were reduced in size by about 80%. 
 
-* Different browsers... 
+### Browsers
+
 
 ## Deployment 
 PortInfo-2021 was deployed using GitHub Pages. The following steps were followed: 
