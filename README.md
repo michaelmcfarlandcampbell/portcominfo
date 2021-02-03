@@ -114,13 +114,13 @@ Created a badge using `<span class="badge rounded-pill bg-warning uppercase">Clo
 
 When testing the site after this change, I realised that the <span style="background-color:#ffc107">Closed due to COVID-19</span> badge was too long and so had pushed the phone number into the right-hand margin when on an iPhone 6. 
 
-<img src="assets/img/PortInfo-2021-Testing-COVID19badge.png">
+<img src="Readme/PortInfo-2021-Testing-COVID19badge.png">
 
 Therefore, I altered the code to `<br><span class="badge rounded-pill bg-warning uppercase">Closed<br>COVID-19</span>`. which gave a badge of 
 
 <span style="background-color:#ffc107">Closed<br>COVID-19</span>. This ensured that the phone numbers remained in the box. 
 
-<img src="assets/img/PortInfo-2021-Testing-COVID19badge-success.jpeg">
+<img src="Readme/PortInfo-2021-Testing-COVID19badge-success.jpeg">
 
 
 ### Browsers
