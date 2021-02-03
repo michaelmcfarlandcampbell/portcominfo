@@ -1,10 +1,10 @@
 # Portarlington Information 2021 (PortInfo-2021)
 
 
-<img src="assets/img/mockup/PortInfo-2021-MockUp.png" alt="mockup of PortInfo-2021 Local information page">
+<img src="Readme/mockup/PortInfo-2021-MockUp.png" alt="mockup of PortInfo-2021 Local information page">
 
 
-<img src="assets/img/mockup/PortInfo-2021-ThreeIphones.png" alt="PortInfo-2021 on three iPhone screens">
+<img src="Readme/mockup/PortInfo-2021-ThreeIphones.png" alt="PortInfo-2021 on three iPhone screens">
 
 [View the live project here.](https://michaelmcfarlandcampbell.github.io/portcominfo/information.html)
 
@@ -90,6 +90,12 @@ The page is designed to be user-friendly. The same templates are used on each pa
 
 ## Testing 
 * All HTML code was validated by [W3C Validator](https://validator.w3.org/)
+
+> * [Results of index.html](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&useragent=Validator.nu%2FLV+http%3A%2F%2Fvalidator.w3.org%2Fservices&acceptlanguage=&doc=https%3A%2F%2Fmichaelmcfarlandcampbell.github.io%2Fportcominfo%2Findex.html)
+> * [Results of information.html]()
+> * [Results of support.html]()
+> * [Results of contact.html]()
+
 * All CSS stylings were validated by [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 
 ### CSS styling
