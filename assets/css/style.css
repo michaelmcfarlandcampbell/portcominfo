@@ -179,8 +179,16 @@ nav .fas {
     padding-top: 20px;
 }
 
+.church {
+    background-color: #B0ABAC;
+}
+
+#church {
+    padding-top: 20px;
+}
+
 .food {
-    background-color: #DAFBD0;
+    background-color: #BDF2C6;
 }
 
 #food {
@@ -208,15 +216,6 @@ nav .fas {
 }
 
 #pharmacy {
-    padding-top: 20px;
-}
-
-
-.church {
-    background-color: #f8de7e;
-}
-
-#church {
     padding-top: 20px;
 }
 
