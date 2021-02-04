@@ -10,25 +10,47 @@
 
 ## UX 
 
+### Ideal user demographic
+The ideal user of this website is:
+* a resident of Portarlington;
+* a visitor to Portarlington; 
+* someone moving to the town;
+* a business owner in the town. 
+
+### User stories
+### Residents' stories
+* As a resident, visitor, or someone moving, I want to navigate easily through the website to find relevant information.
+* As a resident, visitor, or someone moving, I want to learn more about what shops and organisations there are in the town. 
+* As a resident, visitor, or someone moving, I want to easily find links to the organisations highlighted in the page. 
+* As a resident, visitor, or someone moving, I want to be able to suppor those who have created the website by buying merchandise. 
+
+### Business owner stories
+* As a business owner, I want to navigate through the website easily.
+* As a business owner, I want to learn more about what other shops and organisations there are in the town. 
+* As a business owner, I want to share contact details for my business and highlight it on the page.
+* As a business owner, I want to support the volunteers behind the page. 
+
+### Site owner
+* As the site owner, I want to highlight local shops and services to the users.
+* As the site owner, I want to make it easy for businesses to ask to be included. 
+
+## Development planes
+### Strategy
+
+### Scope
+
+### Structure 
+
+### Skeleton
+
+### Design 
 
 
-
-
-## Goals
-### External user's goal:
-
-The site users are residents and potential residents of Portarlington in County Laois, Ireland who want to learn more about the history and amenities of the town. 
-
-### Site owner's goals:
-The site owner wants to help the local community by highlighting events that are happening in the local area and also to sell merchandise that the site owner has produced. 
 
 ### Potential features: 
 * Showcase photos both historical and modern of the town
 * Showcase local shops
-* Shop to purchase merchandise 
-
-
-## Features 
+* Shop to purchase merchandise  
 
 ## Pages
 ### Home
@@ -56,7 +78,7 @@ This page will have opportunities to support the local community organisation by
 
 ### Colour Scheme
 The main colour is 
-* ![#006DEB](https://via.placeholder.com/15/872658/000000?text=+) `#872658` which is an approximation for the colour of the Portarlington GAA and Rugby clubs colours. This colour is used for the footer background, and for most headings.
+* ![872658](https://via.placeholder.com/15/872658/000000?text=+) `#872658` which is an approximation for the colour of the Portarlington GAA and Rugby clubs colours. This colour is used for the footer background, and for most headings.
 
 I used Adobe Colour to find complementary colours which are used to highlight each of the sections in the Information page. 
 
