@@ -1,10 +1,10 @@
 # Portarlington Information 2021 (PortInfo-2021)
 
 
-<img src="Readme/mockup/PortInfo-2021-MockUp.png" alt="mockup of PortInfo-2021 Local information page">
+<img src="readme/mockup/PortInfo-2021-MockUp.png" alt="mockup of PortInfo-2021 Local information page">
 
 
-<img src="Readme/mockup/PortInfo-2021-ThreeIphones.png" alt="PortInfo-2021 on three iPhone screens">
+<img src="readme/mockup/PortInfo-2021-ThreeIphones.png" alt="PortInfo-2021 on three iPhone screens">
 
 [View the live project here.](https://michaelmcfarlandcampbell.github.io/portcominfo/information.html)
 
@@ -42,6 +42,8 @@ The ideal user of this website is:
 ### Structure 
 
 ### Skeleton
+#### Mobile 
+<img src="readme/mockup/portinfo-2021-wireframe-mobile.jpg">
 
 ### Design 
 
@@ -143,13 +145,13 @@ Created a badge using `<span class="badge rounded-pill bg-warning uppercase">Clo
 
 When testing the site after this change, I realised that the <span style="background-color:#ffc107">Closed due to COVID-19</span> badge was too long and so had pushed the phone number into the right-hand margin when on an iPhone 6. 
 
-<img src="Readme/PortInfo-2021-Testing-COVID19badge.png">
+<img src="readme/PortInfo-2021-Testing-COVID19badge.png">
 
 Therefore, I altered the code to `<br><span class="badge rounded-pill bg-warning uppercase">Closed<br>COVID-19</span>`. which gave a badge of 
 
 <span style="background-color:#ffc107">Closed<br>COVID-19</span>. This ensured that the phone numbers remained in the box. 
 
-<img src="Readme/PortInfo-2021-Testing-COVID19badge-success.jpeg">
+<img src="readme/PortInfo-2021-Testing-COVID19badge-success.jpeg">
 
 
 ### Browsers
@@ -159,16 +161,16 @@ Therefore, I altered the code to `<br><span class="badge rounded-pill bg-warning
 All pages loaded well in Edge. I checked all the pages in all the formats available in the devtools. The only one where the information page leaked to the right hand side, was for the Galaxy Fold. I used the Lighthouse tool in the development section which produced the following reports: 
 
 _index.html_
-<img src="Readme/Edge/edge-lighthouse-index.html-20210204063929.png">
+<img src="readme/edge/edge-lighthouse-index.html-20210204063929.png">
 
 _information.html_ 
-<img src="Readme/Edge/edge-lighthouse-information.html-20210204061051.png">
+<img src="readme/edge/edge-lighthouse-information.html-20210204061051.png">
 
 _support.html_
-<img src="Readme/Edge/edge-lighthouse-support.html-20210204064604.png">
+<img src="readme/edge/edge-lighthouse-support.html-20210204064604.png">
 
 _contact.html_
-<img src="Readme/Edge/edge-lighthouse-contact.html-20210204064858.png">
+<img src="readme/edge/edge-lighthouse-contact.html-20210204064858.png">
 ## Deployment 
 PortInfo-2021 was deployed using GitHub Pages. The following steps were followed: 
 
