@@ -158,11 +158,19 @@ Therefore, I altered the code to `<br><span class="badge rounded-pill bg-warning
 **Chrome** 
 
 **Edge** 
-All pages loaded well in Edge. I used the Lighthouse tool in the development section which produced the following reports: 
+All pages loaded well in Edge. I checked all the pages in all the formats available in the devtools. The only one where the information page leaked to the right hand side, was for the Galaxy Fold. I used the Lighthouse tool in the development section which produced the following reports: 
+
+_index.html_
+<img src="Readme/Edge/Edge-Lighthouse-index.html 20210204063929.png">
+
 _information.html_ 
 <img src="Readme/Edge/Edge-Lighthouse-information.html 20210204061051.png">
 
+_support.html_
+<img src="Readme/Edge/Edge-Lighthouse-support.html 20210204064604.png">
 
+_contact.html_
+<img src="Readme/Edge/Edge-Lighthouse-support.html 20210204064604.png">
 ## Deployment 
 PortInfo-2021 was deployed using GitHub Pages. The following steps were followed: 
 
