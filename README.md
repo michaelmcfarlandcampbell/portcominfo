@@ -43,7 +43,10 @@ The ideal user of this website is:
 
 ### Skeleton
 #### Mobile 
-<img src="readme/mockup/portinfo-2021-wireframe-mobile.jpg">
+<img src="readme/mockup/portinfo-2021-wireframe-mobile.jpg" alt="Mobile wireframe">
+
+#### Desktop
+<img src="readme/mockup/portinfo-2021-wireframe-desktop.jpg" alt="Desktop wireframe">
 
 ### Design 
 
