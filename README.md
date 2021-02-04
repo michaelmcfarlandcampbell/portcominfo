@@ -8,7 +8,11 @@
 
 [View the live project here.](https://michaelmcfarlandcampbell.github.io/portcominfo/information.html)
 
-## UX 
+## About 
+PortInfo-2021 is a fictional community project highlighting the services and shops available in the town of Portarlington in the Irish midlands. 
+
+## User Experience (UX) 
+### Strategy
 
 ### Ideal user demographic
 The ideal user of this website is:
@@ -34,21 +38,41 @@ The ideal user of this website is:
 * As the site owner, I want to highlight local shops and services to the users.
 * As the site owner, I want to make it easy for businesses to ask to be included. 
 
-## Development planes
-### Strategy
 
 ### Scope
+**What a user will expect**
 
+* A website that is easy to navigate.
+* Visually appealing regardless of screen size.
+* Links and functions work as expected. 
+* Information about Portarlington's shops and services.
+* A way to contact PortInfo-2021.
+
+**What a user may want** 
+* To find links to social media pages.
+* To see images of the locations.
+* To be able to buy the merchandise online.
+
+
+**As a developer/ organisation I expect**
+
+* To provide information about the town of Portarlington, its shops, and services.
+* To provide an easy way for users to contact me.
+* To provide a website that is easy to navigate and with links that work. 
+
+<span style="text-transform:uppercase">Note</span> Not all of What the user may want will be implemented at this stage. 
+Additional features may be implemented in due course. 
 ### Structure 
+The structure of the site is as a tree 
+<img src="readme/portinfo-2021-sitemap.png" alt="Site Map">
 
 ### Skeleton
+When creating the website, I used responsive design. When the site is expanded from a mobile, stacked elements will display in two columns in each row, this means that more of the website can be seen at once. 
 #### Mobile 
 <img src="readme/mockup/portinfo-2021-wireframe-mobile.jpg" alt="Mobile wireframe">
 
 #### Desktop
 <img src="readme/mockup/portinfo-2021-wireframe-desktop.jpg" alt="Desktop wireframe">
-
-### Design 
 
 
 
@@ -80,6 +104,9 @@ This page will have opportunities to support the local community organisation by
 ## Design
 
 ### Imagery 
+As Portarlington straddles the border between the counties of Laois and of Offaly, which is mainly along the River Barrow at this point, I used a photograph of one of the old bridges in the town that crosses the river. 
+
+As part of the navigation on the [Local Information](https://michaelmcfarlandcampbell.github.io/portcominfo/information.html) page, I used well-known icons from the Fontawesome library. Of particular note is the Rx symbol for Prescription for the Pharmacy. These icons are then also used above the heading in each section of that page to ensure continuity. 
 
 ### Colour Scheme
 The main colour is 
@@ -130,12 +157,16 @@ The page is designed to be user-friendly. The same templates are used on each pa
 * All CSS stylings were validated by [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 
 ### CSS styling
-Although the CSS was validated by the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/), during testing, it was noted that the six areas: #banking #church, #food, #fuel, #leisure, and #pharmacy are all defined with a _padding-top:20px_ style. This could be achieved by creating a new class to join them all together and defining in that class. This would reduce the code required. 
+Although the CSS was validated by the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/), during testing, it was noted by one user that the six areas: #banking #church, #food, #fuel, #leisure, and #pharmacy are all defined separately with a class for each with a `padding-top:20px` style. This could be achieved by creating a new class to join them all together and defining in that class. This would reduce the code required. 
 
 Therefore, I created a new class of `info-area {padding-top: 20px;}` to replace `#banking {padding-top:20px;}`, `#church {padding-top:20px;}`, `#food {padding-top:20px;}`, `#fuel {padding-top:20px;}`, `#leisure {padding-top:20px;}`, and  `#pharmacy {padding-top:20px;}`.
 
 ### Links "noreferrer" attribute
-Any external links its good to have `rel="noopener"` as an attribute. So for social media links in the footer and the covid/local info. This is for security purposes. 
+It was noted that external links should have `rel="noopener"` as an attribute. So for social media links in the footer and the covid/local info for security purposes. Therefore, I added this in. 
+
+### Call to action/hover in main menu
+During user testing, it was noted that the hover was not easy to be seen. So, I changed the navbar to `navbar-dark bg-dark`, and having researched how to change the background for the hover in the navbar, I copied the code from [StackOverflow.com](https://stackoverflow.com/questions/16625972/change-color-of-bootstrap-navbar-on-hover-link), and removed the `.navbar-default` class and the `color` attribute. The background colour was then changed to match the main colour of the site ![872658](https://via.placeholder.com/15/872658/000000?text=+)&nbsp;`#872658`.
+
 ### Images 
 
 Following feedback from my mentor that the images on the site were far too large to download quickly, especially if users were on a mobile connection, I used the [tinypng.com](https://www.tinypng.com) to reduce their sizes. The three clothing pictures on the Support page were reduced in size by about 80%. 
@@ -197,4 +228,5 @@ PortInfo-2021 was deployed using GitHub Pages. The following steps were followed
 
 * I received inspiration for this project from my husband, Andrew, who said that this was the sort of thing we could have done with when we moved from Dublin to Portarlington in 2018.  
 * I thank my mentor, Chris Quinn, for all his support and encouragement. He has been brilliant. 
-* Everyone in CI Slack has been wonderful at supporting me. 
+* I particularly thank Daphne Heimgartner, Rebecca Kensall, Phillip Healy, and Aideen Malone for their feedback during user testing. 
+* I thank everyone in the Code Institute Slack community as they have been wonderful at supporting me. 
