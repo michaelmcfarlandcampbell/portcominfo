@@ -102,8 +102,6 @@ The page is designed to be user-friendly. The same templates are used on each pa
 ### Frameworks, libraries, and programs used:
 * [Am I responsive](http://ami.responsivedesign.is/)
     - Used to create mockup of the information page for the README.md.
-* [balsamiq](https://balsamiq.com/) 
-    - Used to create wireframes in the design phase to show clear layouts. 
 * [Bootstrap4](https://getbootstrap.com) 
     - This framework was used to ensure all pages were responsive across all devices.
 * [Font Awesome](https://fontawesome.com) 
