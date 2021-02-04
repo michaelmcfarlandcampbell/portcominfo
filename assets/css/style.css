@@ -25,6 +25,11 @@ h2 {
 }
 /*-----------------------NavBar-----*/
 
+.navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
+        background: #872657;
+        border-radius: 15px;
+}
+
 .navbar {
     font-family: le-monde-livre-classic-byol, serif;
     font-weight: 300;
@@ -62,13 +67,8 @@ h2 {
 
 }
 
-
 nav .fas {
     font-size: 30pt;
-}
-
-.menu-active {
-    color: #872657
 }
 
 .bg-info {
