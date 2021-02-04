@@ -77,16 +77,23 @@ The page is designed to be user-friendly. The same templates are used on each pa
 [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/240px-HTML5_logo_and_wordmark.svg.png" height="60" aria-label="HTML5">](https://en.wikipedia.org/wiki/HTML5)
 [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/240px-CSS3_logo_and_wordmark.svg.png" height="60" aria-label="CSS">](https://en.wikipedia.org/wiki/CSS) 
 
-### Frameworks and tools used
-* [Am I responsive](http://ami.responsivedesign.is/) - Used to create mockup of the information page for the README.md.
-* [balsamiq](https://balsamiq.com/) - Used to create wireframes in the design phase to show clear layouts. 
-* [Bootstrap4](https://getbootstrap.com) - This framework was used to ensure all pages were responsive across all devices.
-* [Font Awesome](https://fontawesome.com) - Using well-known icons to highlight text throughout the site, to enhance the user experience.
-* [Git](https://git-scm.com/) - Used via the [Gitpod](https://gitpod.io) platform to create, commit, and push changes in the code to GitHub.
-* [GitHub](https://github.com) - Project stored in a repository and to incorporate changes made using Git. Also used for deployment via GitHub Pages. 
-* [Tinypng](https://www.tinypng.com) - Used to reduce images in size to aid loading on site. 
-* [Typekit](https://fonts.adobe.com/) - Used to source typefaces to complement each other. 
-
+### Frameworks, libraries, and programs used:
+* [Am I responsive](http://ami.responsivedesign.is/)
+    - Used to create mockup of the information page for the README.md.
+* [balsamiq](https://balsamiq.com/) 
+    - Used to create wireframes in the design phase to show clear layouts. 
+* [Bootstrap4](https://getbootstrap.com) 
+    - This framework was used to ensure all pages were responsive across all devices.
+* [Font Awesome](https://fontawesome.com) 
+    - Using well-known icons to highlight text throughout the site, to enhance the user experience.
+* [Git](https://git-scm.com/) 
+    - Used via the [Gitpod](https://gitpod.io) platform to create, commit, and push changes in the code to GitHub.
+* [GitHub](https://github.com) 
+    - Project stored in a repository and to incorporate changes made using Git. Also used for deployment via GitHub Pages. 
+* [Tinypng](https://www.tinypng.com) 
+    - Used to reduce images in size to aid loading on site. 
+* [Typekit](https://fonts.adobe.com/) 
+    - Used to source typefaces to complement each other. 
 
 ## Testing 
 * All HTML code was validated by [W3C Validator](https://validator.w3.org/)
@@ -103,6 +110,8 @@ Although the CSS was validated by the [W3C CSS Validator](https://jigsaw.w3.org/
 
 Therefore, I created a new class of `info-area {padding-top: 20px;}` to replace `#banking {padding-top:20px;}`, `#church {padding-top:20px;}`, `#food {padding-top:20px;}`, `#fuel {padding-top:20px;}`, `#leisure {padding-top:20px;}`, and  `#pharmacy {padding-top:20px;}`.
 
+### Links "noreferrer" attribute
+Any external links its good to have `rel="noopener"` as an attribute. So for social media links in the footer and the covid/local info. This is for security purposes. 
 ### Images 
 
 Following feedback from my mentor that the images on the site were far too large to download quickly, especially if users were on a mobile connection, I used the [tinypng.com](https://www.tinypng.com) to reduce their sizes. The three clothing pictures on the Support page were reduced in size by about 80%. 
