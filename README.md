@@ -155,10 +155,12 @@ Therefore, I altered the code to `<br><span class="badge rounded-pill bg-warning
 
 
 ### Browsers
-- **Chrome** 
+**Chrome** 
 
-- **Edge**
-  [Lighthouse Report for information.html](Readme/Edge/michaelmcfarlandcampbell.github.io-20210204T061051.html)
+**Edge** 
+All pages loaded well in Edge. I used the Lighthouse tool in the development section which produced the following reports: 
+_information.html_ 
+<img src="Readme/Edge/Edge-Lighthouse-information.html 20210204061051.png">
 
 
 ## Deployment 
