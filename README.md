@@ -155,6 +155,10 @@ Therefore, I altered the code to `<br><span class="badge rounded-pill bg-warning
 
 
 ### Browsers
+- **Chrome** 
+
+- **Edge**
+  [Lighthouse Report for information.html](Readme/Edge/michaelmcfarlandcampbell.github.io-20210204T061051.html)
 
 
 ## Deployment 
