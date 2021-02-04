@@ -1,10 +1,10 @@
 # Portarlington Information 2021 (PortInfo-2021)
 
 
-<img src="readme/mockup/PortInfo-2021-MockUp.png" alt="mockup of PortInfo-2021 Local information page">
+<img src="readme/mockup/portinfo-2021-mockup.png" alt="mockup of PortInfo-2021 Local information page">
 
 
-<img src="readme/mockup/PortInfo-2021-ThreeIphones.png" alt="PortInfo-2021 on three iPhone screens">
+<img src="readme/mockup/portinfo-2021-threeiphones.png" alt="PortInfo-2021 on three iPhone screens">
 
 [View the live project here.](https://michaelmcfarlandcampbell.github.io/portcominfo/information.html)
 
@@ -148,13 +148,13 @@ Created a badge using `<span class="badge rounded-pill bg-warning uppercase">Clo
 
 When testing the site after this change, I realised that the <span style="background-color:#ffc107">Closed due to COVID-19</span> badge was too long and so had pushed the phone number into the right-hand margin when on an iPhone 6. 
 
-<img src="readme/PortInfo-2021-Testing-COVID19badge.png">
+<img src="readme/portinfo-2021-testing-covid19badge.png">
 
 Therefore, I altered the code to `<br><span class="badge rounded-pill bg-warning uppercase">Closed<br>COVID-19</span>`. which gave a badge of 
 
 <span style="background-color:#ffc107">Closed<br>COVID-19</span>. This ensured that the phone numbers remained in the box. 
 
-<img src="readme/PortInfo-2021-Testing-COVID19badge-success.jpeg">
+<img src="readme/portinfo-2021-testing-covid19badge-success.jpeg">
 
 
 ### Browsers
