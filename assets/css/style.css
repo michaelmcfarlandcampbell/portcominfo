@@ -66,6 +66,11 @@ h2 {
 nav .fas {
     font-size: 30pt;
 }
+
+.menu-active {
+    color: #872657
+}
+
 .bg-info {
     border-radius: 15px;
     text-align: center;
