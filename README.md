@@ -88,7 +88,6 @@ The main colour is
 I used Adobe Colour to find complementary colours which are used to highlight each of the sections in the Information page. 
 
 ### Typography
-The two typefaces used complement each other and clearly distinguish between items. 
 
 #### Headings
 Use the [Fieldwork](https://fonts.adobe.com/fonts/fieldwork) font. 
