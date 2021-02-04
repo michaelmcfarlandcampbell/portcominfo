@@ -92,9 +92,9 @@ The page is designed to be user-friendly. The same templates are used on each pa
 * All HTML code was validated by [W3C Validator](https://validator.w3.org/)
 
 > * [Results of index.html](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&useragent=Validator.nu%2FLV+http%3A%2F%2Fvalidator.w3.org%2Fservices&acceptlanguage=&doc=https%3A%2F%2Fmichaelmcfarlandcampbell.github.io%2Fportcominfo%2Findex.html)
-> * [Results of information.html]()
-> * [Results of support.html]()
-> * [Results of contact.html]()
+> * [Results of information.html](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fmichaelmcfarlandcampbell.github.io%2Fportcominfo%2Finformation.html#textarea)
+> * [Results of support.html](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&useragent=Validator.nu%2FLV+http%3A%2F%2Fvalidator.w3.org%2Fservices&acceptlanguage=&doc=https%3A%2F%2Fmichaelmcfarlandcampbell.github.io%2Fportcominfo%2Fsupport.html)
+> * [Results of contact.html](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fmichaelmcfarlandcampbell.github.io%2Fportcominfo%2Fcontact.html)
 
 * All CSS stylings were validated by [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 
