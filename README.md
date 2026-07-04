@@ -1,5 +1,6 @@
-# Portarlington Information 2021 (PortInfo-2021)
+> Historical Code Institute project, preserved as part of my web development learning journey. This repository is no longer actively maintained.
 
+# Portarlington Information 2021 (PortInfo-2021)
 
 <img src="readme/mockup/portinfo-2021-mockup.png" alt="mockup of PortInfo-2021 Local information page">
 
